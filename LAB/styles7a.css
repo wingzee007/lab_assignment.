@@ -1,0 +1,28 @@
+*
+{
+    background-color: rgb(155, 251, 219);
+}
+h2{
+    background-color: aqua;
+    color:rgba(243, 6, 6, 0.848);
+}
+table
+{
+    background-color: rgb(0, 94, 245);
+}
+#table_heading
+{
+    background-color: rgb(255, 0, 0);
+}
+#dep
+{
+    color:rgb(10, 116, 0);
+    font-size: large;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.des
+{
+    color:rgb(1, 60, 1);
+    background-color: rgb(108, 255, 108);
+} 

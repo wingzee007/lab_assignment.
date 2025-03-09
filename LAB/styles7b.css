@@ -1,0 +1,16 @@
+*
+{
+    background-color: rgb(157, 157, 157);
+}
+.edit
+{
+    background-color: rgba(250, 72, 72, 0.437);
+    color: rgb(5, 84, 5);
+}
+h1{
+    font-style: italic;
+    color: rgb(0, 0, 140);
+}
+ul{
+    color: rgb(1, 87, 1);
+} 
