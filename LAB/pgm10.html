@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>hello</title>
+        <link rel ="stylesheet" href="calculator.css">
+</head>
+<body>
+<h1>CALCULATOR</h1>
+<input type="text" size="4" class="inp"id="inp1">
+<span id="op"></span>
+<input type="text" size="4" class="inp"id="inp2">
+
+<input type="button" value="+" size="4"class="but" onclick="add()">
+<input type="button" value="-" size="4"class="but" onclick="sub()">
+<input type="button" value="*" size="4"class="but" onclick="mult()">
+<input type="button" value="/" size="4"class="but" onclick="div()">
+<input type="button" value="=" class="bu">
+
+<span id="s">0</span><br>
+
+<script>
+function add()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+	var add=a+b;
+        document.getElementById("s").innerHTML=add;
+}
+function sub()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+	var sub=a-b;
+        document.getElementById("s").innerHTML=sub;
+}
+function mult()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+	var mult=a*b;
+	document.getElementById("s").innerHTML=mult;
+       
+}
+function div()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+	var div=a/b;
+        document.getElementById("s").innerHTML=div;
+
+}
+</script>
+</body>
+</html>
+
